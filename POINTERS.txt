@@ -1,0 +1,2 @@
+
+- [Using JQuery in Chrome Extension without pages](http://carl-topham.com/theblog/post/creating-chrome-extension-uses-jquery-manipulate-dom-page/)

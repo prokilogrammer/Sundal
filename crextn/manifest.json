@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "Sundal",
+  "description": "Highlights links on a webpage that are similar to the page you are reading",
+  "version": "1.0",
+
+  "permissions": [
+    "tabs",
+    "webNavigation"
+  ],
+
+  "browser_action": {
+    "name": "Highlight relevant links",
+    "default_icon": "icon.png"
+  },
+
+  "background": {
+    "scripts": ["eventpage.js"],
+    "persistent": false
+  },
+
+  "content_scripts": [{
+    "js": [ "jquery.min.js"],
+    "matches": [ "http://*/*", "http://*/*"]
+  }]
+}
